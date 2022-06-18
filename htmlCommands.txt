@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> = start html
+	<head> = basic settings
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Photography </title>
+	</head>
+
+</html> = end hmtl
+
+
+<body></body> = creates text within the page
+
+
+<h1></h1> = creates header
+<h2></h2> = creates subheader
+
+<p></p> = creates paragraph
+
+<i></i> = italics text
+<u></u> = underline text
+<em></em> = 
+<strong></strong> = bold text
+
+<br> = creates a line break
+
+<a></a> = creates embed link in text
+{href="link" target="_blank"}
+
+<ul></ul> = creates bulleted list
+<li></li> = bullet point
+
+<table></table> = creates table
+{border="#" cellpadding="#" cellspacing="#"}
+<tr></tr> = row
+<td></td> = text
+<th></th> = bold text
+{colspan="#"}
+{rowspan="#"}
+
+<img src="filename">
+{src="folder@currentFolder/filename"}
+{src="/folder@root/filename"}
+{border="#">
+{style="width: 300px; border: 10px solid/dotted/groove/double/outset/inset/ridged/dashed;"}
+{"border-style: solid dotted groove;"}
+
+
+<style type="text/css">
+<!--
+	.tab {margin-left: 50px;}
+-->
+</style>
+
