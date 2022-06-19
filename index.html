@@ -3,106 +3,67 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title> Photography </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Iquoc's Website </title>
+
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	</head>
 	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"> <img src="images/202109 BigBendLake-20.jpg"> </a>
+				<div class="nav-links" id="navLinks">
+					<i class="fas fa-square-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li> <a href=""> HOME </a> </li>
+						<li> <a href=""> ABOUT </a> </li>
+						<li> <a href=""> CODING PROJECTS </a> </li>
+						<li> <a href="https://iquoc.github.io/PersonalWebsite/Photography/index.html"> PHOTOGRAPHY </a> </li>
+					</ul>
+				</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+			<div class="text-box">
+				<h1> Something </h1>
+				<p> text 
+				</p>
+				<a href="" class="hero-btn"> A link </a>
+		</section>
+
 		<h1>My Own Personal Website!</h1>
 		<h2>Welcome to Iquoc Tran Park</h2>
 
 		<p style="text-indent: 20px">
-		Hello, my name is Iquoc Tran (eye-kwah).  i am currently an undergraduate at DePaul University studying Computer Science.<br>
+		Hello, my name is Iquoc Tran (eye-kwah).  I am currently an undergraduate at DePaul University studying Computer Science.<br>
 		My hobbies include videogames, photography, exercise, and Transformers.<br>
 		<br>
 		My photography website <b>cool</b>
 		</p>
 
-		<h2> <<<< Testing Grounds >>>> </h2> 
-
+		<h2> Contact </h2>
 		<p>
-		This is a paragraph
+		Email: iquoct@gmail.com <br>
+		Phone Number: (224) 253 9729
 		</p>
 
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper erat metus, ut fringilla ante posuere sit amet. In pretium ac urna ut ornare. Ut aliquet et justo vitae tempus. Duis dui ante, consectetur a gravida sit amet, pharetra et odio. Integer vitae libero mauris. Nullam lacus nisi, aliquam vitae ullamcorper quis, porta sed enim. Donec id risus ligula. Donec urna nisi, imperdiet nec feugiat ut, tempor quis risus. Fusce pharetra, odio a congue bibendum, velit enim lobortis mauris, nec dictum augue velit eget tellus.
-		<br><br>
-		Line Break
-		</p>
+		<!--- JavaScript ---->
 
-		<p> 
-		<i> Proin eget sollicitudin urna. </i><br>
-		<u> Sed interdum orci a lectus tempus rutrum. </u><br>
-		<em> Donec feugiat eu magna nec maximus. </em><br>
-		<strong> Integer tempus nulla dolor, at dictum sem dictum nec. </strong><br>
-		<hr>
-		Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-		<a href="https://www.youtube.com/watch?v=PlxWf493en4" target="_blank"> Curabitur fringilla consequat felis, id vehicula leo congue eget. </a>
-		Cras tempor leo at finibus interdum. In laoreet mattis pulvinar. Mauris vitae volutpat sem. Proin aliquet nulla in libero molestie luctus. Aliquam non facilisis quam. Nulla faucibus vel dolor vel hendrerit. Etiam dignissim velit sit amet tellus tincidunt, at auctor leo finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In venenatis orci vitae metus consectetur sodales.
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			
+			function showMenu()
+			{
+				navLinks.style.right = "0";
+			}
 
-		</p>
-
-		<br>
-		<img src="IMG_4611.jpg" border="10" height="300">
-		<br>
-
-		<h2> Personal Photography </h2>
-
-		<table border="3" cellpadding="20" cellspacing="0">
-			<tr>
-				<td> <a href="https://iquoc.github.io/PersonalWebsite/2021/index.html"> 2021 Photography </a> </td>
-				<td> 2022 Photography </td>
-				<td> <a href="https://iquoc.github.io/PersonalWebsite/ART%20224/index.html"> ART 224 </a> </td>
-				<td> Mazdaspeed6 "Speedy" </td>
-			</tr>
-		</table>
-
-		<h2> Photography Gear </h2>
-
-		<ul>
-			<li>Sony A7iv
-				<ul>
-					<li>Sony 28-70mm f/3.5-5.6 Kit Lens</li>
-					<li>Sigma 85mm f/1.4 DG DN Lens... TBA</li>
-				</ul>
-			</li>
-			<li>Canon 5D Mark II</li>
-				<ul>
-					<li>Canon ... USM</li>
-				</ul>
-		</ul>
-
-		<table border="5" cellpadding="10" cellspacing="0">
-			<tr>
-				<td></td>
-				<th>Body</th>
-				<th colspan="2">Lens</th>
-				<th>Bags</th>
-				<th>Straps</th>
-			</tr>
-			<tr>
-				<td rowspan="2">Full-Frame</td>
-				<td>Sony A7iv</td>
-				<td>Sony 28-70mm f/3.5-5.6 Kit Lens</td>
-				<td>Sigma 85mm f/1.4 DG DN Lens</td>
-				<td>Moment 6L Rugged Sling</td>
-				<td>Peak Design Slide Lite</td>
-			</tr>
-			<tr>
-				<td>Canon 5D Mark II</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			<tr>
-				<td rowspan="2">APS-C</td>
-				<td>Fujifilm?</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			</tr>
-		</table>
+			function hideMenu()
+			{
+				navLinks.style.right = "-200px";
+			}
+		</script>
 
 	</body>
 </html>
